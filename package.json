@@ -7,7 +7,8 @@
     "dev": "nodemon ./api/index.js",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
     "test:watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watchAll",
-    "test:coverage": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watchAll --coverage"
+    "test:coverage": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watchAll --coverage",
+    "test:video:service": "node --experimental-vm-modules node_modules/jest/bin/jest.js --testPathPattern=api/test/services/videoService.test.js"
   },
   "keywords": [],
   "author": "",
